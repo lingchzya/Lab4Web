@@ -17,3 +17,15 @@ Praktikum ini membahas tentang CSS Box Element, CSS Float Property, HTML5 Semant
   - `about.html`: Halaman profil & portofolio.
   - `contact.html`: Halaman form kontak.
   - `style.css`: File stylesheet layout.
+  
+### 1. Box Element (`lab4box.html`)
+![Tampilan Box Element](lab4_layout/box.png)
+
+### 2. Halaman Utama (`home.html`)
+![Tampilan Home](lab4_layout/home.png)
+
+### 3. Halaman About (`about.html`)
+![Tampilan About](lab4_layout/about.png)
+
+### 4. Halaman Kontak (`contact.html`)
+![Tampilan Kontak](lab4_layout/kontak.png)
