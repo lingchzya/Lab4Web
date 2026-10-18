@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Element - Praktikum 4</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 24px; color: #263445; }
+        h1 { margin-top: 0; }
+        .demo { padding: 18px; border: 1px solid #d8e0e8; border-radius: 10px; margin-bottom: 24px; overflow: auto; }
+        .demo div { float: left; padding: 18px 24px; color: #fff; margin-right: 8px; margin-bottom: 8px; }
+        .div1 { background: #e74c3c; }
+        .div2 { background: #f1c40f; color: #263445 !important; }
+        .div3 { background: #27ae60; }
+        .div4 { background: #2878c8; clear: left; float: none !important; width: fit-content; }
+        .note { line-height: 1.6; color: #536273; }
+    </style>
+</head>
+<body>
+    <h1>Praktikum 4: Box Element</h1>
+    <p class="note">Halaman ini menunjukkan konsep box element, float, dan clear pada CSS.</p>
+    <section class="demo">
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div>
+        <div class="div4">Div 4 — clear: left</div>
+    </section>
+    <h2>Kesimpulan</h2>
+    <p class="note">Properti <code>float: left</code> membuat elemen berada berdampingan selama ruang tersedia. Properti <code>clear: left</code> membuat elemen berikutnya turun melewati elemen yang di-float ke kiri.</p>
+</body>
+</html>
